@@ -1,6 +1,6 @@
 # WooKey JTAG Flasher PCB
 
-![Pinout](/imgs/wookey-jtag-3D.png)
+![Pinout](./imgs/wookey-jtag-3D.png)
 
 
 ## Introduction
@@ -68,18 +68,18 @@ The directory name may differ according the project your are working with.
 
 ## PCB Pinout
 
-![Pinout](/imgs/wookey-jtag-top-pinout.png)
+![Pinout](./imgs/wookey-jtag-top-pinout.png)
 
 
 ## PCB Layers
 
 ### PCB TOP layer
 
-![TOP](/imgs/wookey-jtag-top.png)
+![TOP](./imgs/wookey-jtag-top.png)
 
 ### PCB BOTTOM layer
 
-![BOT](/imgs/wookey-jtag-bot.png)
+![BOT](./imgs/wookey-jtag-bot.png)
 
 
 ### Layers
