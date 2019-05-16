@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 8)
+    (drawings 9)
     (tracks 355)
     (zones 0)
     (modules 37)
@@ -1699,6 +1699,9 @@
     )
   )
 
+  (gr_text "The current 4 layer 1.6mm board stackup is as follows:\n\nThickness           Layer\n========================================\n0.0356mm       copper\n0.1702mm       FR408 prepreg\n0.0178mm       copper\n1.1938mm       FR408 \n0.0178mm       copper\n0.1702mm       FR408 prepreg\n0.0356mm       copper\n0.0254mm       solder resist" (at 89.2429 79.29626) (layer Cmts.User)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
   (gr_arc (start 137.13 52.35796) (end 138.43 52.35796) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_arc (start 101.63 52.35796) (end 101.63 53.65796) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_arc (start 101.63 37.15796) (end 100.33 37.15796) (angle 90) (layer Edge.Cuts) (width 0.1))
