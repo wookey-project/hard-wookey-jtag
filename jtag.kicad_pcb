@@ -1187,12 +1187,12 @@
     (pad 2 smd rect (at -9.65 -1 180) (size 2.5 1.1) (layers F.Cu F.Paste F.Mask)
       (net 7 /USB_FS_D-))
     (model ${KISYS3DMOD}/Connector_USB.3dshapes/USB_A_CNCTech_1001-011-01101_Horizontal.wrl
-      (at (xyz 0 0 0))
+      (offset (xyz 1.5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
     (model ${KIPRJMOD}/libs/3D/1001-011-01101.stp
-      (offset (xyz 10.7 0 0))
+      (offset (xyz 10.7 0 1))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 90))
     )
