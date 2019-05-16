@@ -1,16 +1,16 @@
 EESchema Schematic File Version 4
-LIBS:wookey-cache
+LIBS:jtag-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 9 9
-Title "Wookey-Project"
+Sheet 1 1
+Title "Wookey JTAG Flasher"
 Date "2019-05-13"
-Rev ""
+Rev "v1.6"
 Comp "ANSSI"
-Comment1 "Designed by Mathieu RENARD"
-Comment2 "LICENCE: "
+Comment1 "Designed by Mathieu Renard"
+Comment2 "LICENCE: CERN Open Hardware Licence v1.2"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -654,7 +654,7 @@ F 3 "" H 11000 7850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_ARM_JTAG_SWD_10 J9003
+L jtag-rescue:Conn_ARM_JTAG_SWD_10-Connector J9003
 U 1 1 5D07EFD7
 P 14600 6000
 AR Path="/5D07EFD7" Ref="J9003"  Part="1" 
@@ -1040,7 +1040,7 @@ AR Path="/5B064C30/5DB80474" Ref="#PWR?"  Part="1"
 AR Path="/5B22B7CD/5DB80474" Ref="#PWR?"  Part="1" 
 AR Path="/5CB9D1B5/5DB80474" Ref="#PWR0161"  Part="1" 
 AR Path="/5DB80474" Ref="#PWR09002"  Part="1" 
-F 0 "#PWR0161" H 1100 8300 50  0001 C CNN
+F 0 "#PWR09002" H 1100 8300 50  0001 C CNN
 F 1 "GND" H 1105 8377 50  0000 C CNN
 F 2 "" H 1100 8550 50  0001 C CNN
 F 3 "" H 1100 8550 50  0001 C CNN
